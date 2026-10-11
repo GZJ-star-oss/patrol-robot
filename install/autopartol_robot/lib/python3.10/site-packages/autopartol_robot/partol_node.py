@@ -8,7 +8,7 @@ from rclpy.duration import Duration
 from autopatrol_interfaces.srv import SpeachText
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
-import cv2
+import cv2 
 
 class PatrolNode(BasicNavigator):
     def __init__(self, node_name='patrol_node'):
@@ -24,9 +24,9 @@ class PatrolNode(BasicNavigator):
         self.speach_client_ = self.create_client(SpeachText, 'speech_text')
 
         # 订阅与保存图像相关定义
-        self.declare_parameter('image_save_path', '')
+        self.declare_parameter('image_save_path', '')#空的默认值
         self.image_save_path = self.get_parameter('image_save_path').value
-        self.bridge = CvBridge()
+        self.bridge = CvBridge()#图像转换器
         self.latest_image = None
         self.subscription_image = self.create_subscription(
             Image, '/camera_sensor/image_raw', self.image_callback, 10)
@@ -44,7 +44,7 @@ class PatrolNode(BasicNavigator):
         if self.latest_image is not None:
           pose = self.get_current_pose()
           cv_image = self.bridge.imgmsg_to_cv2(self.latest_image)
-          cv2.imwrite(f'{self.image_save_path}image_<member_of_group>rosidl_interface_packagess</member_of_group>{pose.translation.x:3.2f}_{pose.translation.y:3.2f}.png', cv_image)
+          cv2.imwrite(f'{self.image_save_path}image_{pose.translation.x:3.2f}_{pose.translation.y:3.2f}.png', cv_image)
 
 
     def speach_text(self, text):

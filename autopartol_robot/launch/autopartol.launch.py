@@ -2,27 +2,39 @@ import os
 import launch
 import launch_ros
 from ament_index_python.packages import get_package_share_directory
-from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 
 def generate_launch_description():
-    # 获取与拼接默认路径
-    autopatrol_robot_dir = get_package_share_directory(
-        'autopatrol_robot')
-    patrol_config_path = os.path.join(
-        autopatrol_robot_dir, 'config', 'patrol_config.yaml')
-    
-    action_node_turtle_control = launch_ros.actions.Node(
-        package='autopatrol_robot',
-        executable='patrol_node',
-        parameters=[patrol_config_path]
-    )
-    action_node_patrol_client = launch_ros.actions.Node(
-        package='autopatrol_robot',
-        executable='speaker',
+
+    # 1. 获取 ROS2 功能包安装目录
+    autopartol_robot_dir = get_package_share_directory(
+        'autopartol_robot'
     )
 
+    # 2. 获取 YAML 配置文件路径
+    patrol_config_path = os.path.join(
+        autopartol_robot_dir,
+        'config',
+        'partol_config.yaml'
+    )
+
+    # 3. 启动巡逻节点
+    action_node_patrol = launch_ros.actions.Node(
+        package='autopartol_robot',
+        executable='patrol_node',
+        parameters=[patrol_config_path],
+        output='screen'
+    )
+
+    # 4. 启动语音播报节点
+    action_node_speaker = launch_ros.actions.Node(
+        package='autopartol_robot',
+        executable='speaker',
+        output='screen'
+    )
+
+    # 5. 返回启动动作列表
     return launch.LaunchDescription([
-        action_node_turtle_control,
-        action_node_patrol_client,
+        action_node_patrol,
+        action_node_speaker,
     ])

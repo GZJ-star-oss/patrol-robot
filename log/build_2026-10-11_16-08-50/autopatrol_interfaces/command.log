@@ -1,0 +1,1 @@
+Invoking command in '/home/yonghui/chapt7/chapt7_ws/src/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yonghui/chapt7/chapt7_ws/src/autopatrol_interfaces -DCMAKE_INSTALL_PREFIX=/home/yonghui/chapt7/chapt7_ws/src/install/autopatrol_interfaces

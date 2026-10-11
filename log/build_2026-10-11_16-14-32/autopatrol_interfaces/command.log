@@ -1,0 +1,1 @@
+Invoking command in '/home/yonghui/chapt7/chapt7_ws/src/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yonghui/chapt7/chapt7_ws/src/build/autopatrol_interfaces -- -j4 -l4
