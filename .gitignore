@@ -1,0 +1,6 @@
+
+.vscode/browse.vc.db
+.vscode/*.lock
+build/
+install/
+log/
