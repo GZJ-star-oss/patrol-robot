@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopatol_interfaces__rs",
+		"source" : "/home/yonghui/chapt7/chapt7_ws/src/build/autopatol_interfaces/autopatol_interfaces__rs"
+	}
+}

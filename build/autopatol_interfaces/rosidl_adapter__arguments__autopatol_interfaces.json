@@ -1,0 +1,6 @@
+{
+  "package_name": "autopatol_interfaces",
+  "non_idl_tuples": [
+    "/home/yonghui/chapt7/chapt7_ws/src/autopatol_interfaces:srv/SpeechText.srv"
+  ]
+}

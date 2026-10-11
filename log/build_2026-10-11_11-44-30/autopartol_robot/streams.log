@@ -1,0 +1,21 @@
+[3.214s] Invoking command in '/home/yonghui/chapt7/chapt7_ws/src/autopartol_robot': PYTHONPATH=/home/yonghui/chapt7/chapt7_ws/src/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopartol_robot build --build-base /home/yonghui/chapt7/chapt7_ws/src/build/autopartol_robot/build install --record /home/yonghui/chapt7/chapt7_ws/src/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[3.761s] running egg_info
+[3.761s] writing ../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[3.762s] writing dependency_links to ../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[3.762s] writing entry points to ../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[3.763s] writing requirements to ../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[3.763s] writing top-level names to ../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[3.768s] reading manifest file '../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.769s] writing manifest file '../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.769s] running build
+[3.769s] running build_py
+[3.769s] running install
+[3.769s] running install_lib
+[3.770s] running install_data
+[3.770s] running install_egg_info
+[3.773s] removing '/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[3.773s] Copying ../build/autopartol_robot/autopartol_robot.egg-info to /home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[3.776s] running install_scripts
+[3.808s] Installing partol_node script to /home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot/lib/autopartol_robot
+[3.809s] writing list of installed files to '/home/yonghui/chapt7/chapt7_ws/src/build/autopartol_robot/install.log'
+[3.851s] Invoked command in '/home/yonghui/chapt7/chapt7_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/yonghui/chapt7/chapt7_ws/src/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopartol_robot build --build-base /home/yonghui/chapt7/chapt7_ws/src/build/autopartol_robot/build install --record /home/yonghui/chapt7/chapt7_ws/src/build/autopartol_robot/install.log --single-version-externally-managed install_data

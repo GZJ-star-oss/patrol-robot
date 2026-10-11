@@ -1,0 +1,8 @@
+setup.py
+autopatol_interfaces/__init__.py
+autopatol_interfaces.egg-info/PKG-INFO
+autopatol_interfaces.egg-info/SOURCES.txt
+autopatol_interfaces.egg-info/dependency_links.txt
+autopatol_interfaces.egg-info/top_level.txt
+autopatol_interfaces/srv/__init__.py
+autopatol_interfaces/srv/_speech_text.py

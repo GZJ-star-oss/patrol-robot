@@ -1,0 +1,5 @@
+[0.649s] Invoking command in '/home/yonghui/chapt7/chapt7_ws/src/build/autopatol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonghui/chapt7/chapt7_ws/src/install/fishbot_application:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/yonghui/chapt7/chapt7_ws/src/build/autopatol_interfaces -- -j4 -l4
+[1.090s] [0mCMake Error: The source directory "/home/yonghui/chapt7/chapt7_ws/src/autopatol_interfaces" does not exist.
+[1.090s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.090s] gmake: *** [Makefile:761: cmake_check_build_system] Error 1
+[1.114s] Invoked command in '/home/yonghui/chapt7/chapt7_ws/src/build/autopatol_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonghui/chapt7/chapt7_ws/src/install/fishbot_application:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/yonghui/chapt7/chapt7_ws/src/build/autopatol_interfaces -- -j4 -l4

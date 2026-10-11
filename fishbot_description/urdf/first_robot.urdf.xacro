@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="first_robot">
+
+	<!-- 1. 惯性矩阵宏模板定义 -->
+	<xacro:macro name="cylinder_inertia" params="m r h">
+		<inertial>
+			<mass value="${m}" />
+			<inertia ixx="${(m/12)*(3*r*r + h*h)}" ixy="0" ixz="0"
+			         iyy="${(m/12)*(3*r*r + h*h)}" iyz="0"
+			         izz="${(m/2)*(r*r)}" />
+		</inertial>
+	</xacro:macro>
+
+	<xacro:macro name="box_inertia" params="m w h d">
+		<inertial>
+			<mass value="${m}" />
+			<inertia ixx="${(m/12) * (h*h + d*d)}" ixy="0.0" ixz="0.0" 
+			         iyy="${(m/12) * (w*w + d*d)}" iyz="0.0" 
+			         izz="${(m/12) * (w*w + h*h)}" />
+		</inertial>
+	</xacro:macro>
+
+	<!-- 2. base 模块（补齐 collision 与 inertial） -->
+	<xacro:macro name="base_link" params="length radius">
+		<link name="base_link">
+			<!-- 外观描述 -->
+			<visual>
+				<origin xyz="0 0 0" rpy="0 0 0"/>
+				<geometry>
+					<cylinder radius="${radius}" length="${length}"/>
+				</geometry>
+				<material name="white">
+					<color rgba="1.0 1.0 1.0 0.8"/>
+				</material>
+			</visual>
+			<!-- 碰撞描述（必须与 visual 尺寸一致） -->
+			<collision>
+				<origin xyz="0 0 0" rpy="0 0 0"/>
+				<geometry>
+					<cylinder radius="${radius}" length="${length}"/>
+				</geometry>
+			</collision>
+			<!-- 惯性与质量（质量 1.0 kg） -->
+			<xacro:cylinder_inertia m="1.0" r="${radius}" h="${length}" />
+		</link>
+	</xacro:macro>
+
+	<!-- 3. IMU 模块（补齐 collision 与 inertial） -->
+	<xacro:macro name="imu_link" params="imu_name xyz">
+		<link name="${imu_name}_link">
+			<visual>
+				<origin xyz="0 0 0" rpy="0 0 0"/>
+				<geometry>
+					<box size="0.02 0.02 0.02"/>
+				</geometry>
+				<material name="black">
+					<color rgba="0 0 0 1.0"/>
+				</material>
+			</visual>
+			<collision>
+				<origin xyz="0 0 0" rpy="0 0 0"/>
+				<geometry>
+					<box size="0.02 0.02 0.02"/>
+				</geometry>
+			</collision>
+			<!-- IMU 质量设为 0.05 kg -->
+			<xacro:box_inertia m="0.05" w="0.02" h="0.02" d="0.02" />
+		</link>
+
+		<joint name="${imu_name}_joint" type="fixed">
+			<parent link="base_link"/>
+			<child link="${imu_name}_link"/>
+			<origin xyz="${xyz}" />
+		</joint>
+	</xacro:macro>
+
+	<!-- 4. 实例化调用 -->
+	<xacro:base_link length="0.12" radius="0.1" />
+	<xacro:imu_link imu_name="imu_up" xyz="0 0 0.02" />
+	<xacro:imu_link imu_name="imu_down" xyz="0 0 -0.02" />
+
+</robot>

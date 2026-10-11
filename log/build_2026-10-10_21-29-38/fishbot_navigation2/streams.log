@@ -1,0 +1,52 @@
+[0.987s] Invoking command in '/home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonghui/chapt7/chapt7_ws/src/install/fishbot_application:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2 -- -j4 -l4
+[1.427s] Invoked command in '/home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonghui/chapt7/chapt7_ws/src/install/fishbot_application:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2 -- -j4 -l4
+[1.436s] Invoking command in '/home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonghui/chapt7/chapt7_ws/src/install/fishbot_application:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2
+[1.568s] -- Install configuration: ""
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/ROOM.pgm
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/ROOM.yaml
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install
+[1.569s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/_local_setup_util_sh.py
+[1.576s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/local_setup.sh
+[1.577s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/local_setup.bash
+[1.577s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/_local_setup_util_ps1.py
+[1.577s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/.colcon_install_layout
+[1.577s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/COLCON_IGNORE
+[1.577s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/setup.ps1
+[1.591s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/setup.bash
+[1.591s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/local_setup.zsh
+[1.593s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/setup.sh
+[1.593s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/local_setup.ps1
+[1.593s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/install/setup.zsh
+[1.593s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/log
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/log/latest
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/log/latest_build
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/log/COLCON_IGNORE
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/log/build_2026-09-27_16-30-56
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/log/build_2026-09-27_16-30-56/events.log
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/log/build_2026-09-27_16-30-56/logger_all.log
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[1.594s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/build
+[1.597s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/build/.built_by
+[1.597s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/build/COLCON_IGNORE
+[1.597s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[1.597s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[1.597s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[1.597s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[1.598s] -- Installing: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[1.598s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[1.601s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[1.603s] -- Up-to-date: /home/yonghui/chapt7/chapt7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[1.659s] Invoked command in '/home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonghui/chapt7/chapt7_ws/src/install/fishbot_application:/home/yonghui/chapt7/chapt7_ws/src/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/yonghui/chapt7/chapt7_ws/src/build/fishbot_navigation2
